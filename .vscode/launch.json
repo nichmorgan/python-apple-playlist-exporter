@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Python: Main",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/apple_playlist_extractor/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[tool.poetry]
+authors = ["Morgan C. Nicholson <nich.morgan@outlook.com>"]
+description = ""
+name = "extrator-playlist-apple"
+packages = [{include = "apple_playlist_extractor/**/*.py"}]
+version = "0.1.0"
+
+[tool.poetry.scripts]
+main = "apple_playlist_extractor.main:export()"
+
+[tool.poetry.dependencies]
+bs4 = "^0.0.1"
+pydantic = "^1.9.1"
+python = "^3.9"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]

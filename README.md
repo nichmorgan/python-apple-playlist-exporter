@@ -1,4 +1,4 @@
-# python-extractor: playlist-apple
+# python-apple-playlist-extractor
 A Simple Python script to convert an Apple Music Playlist to a CSV. 
 
 ## Usage

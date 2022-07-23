@@ -1,7 +1,7 @@
 [tool.poetry]
 authors = ["Morgan C. Nicholson <nich.morgan@outlook.com>"]
 description = "A Simple Python script to convert an Apple Music Playlist to a CSV."
-name = "extrator-playlist-apple"
+name = "apple-playlist-extractor"
 packages = [{include = "apple_playlist_exporter/**/*.py"}]
 version = "0.1.0"
 

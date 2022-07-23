@@ -1,11 +1,11 @@
 from pathlib import Path
-from typing import List, Generator, Optional
+from typing import Generator, Optional
 from urllib import parse
 import json
 from pydantic import PositiveInt, validate_arguments
 import requests
-from bs4 import BeautifulSoup, ResultSet
-from apple_playlist_extractor.dto import Song
+from bs4 import BeautifulSoup
+from .dto import Song
 import csv
 import logging
 

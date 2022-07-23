@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import Optional
 
 from pydantic import PositiveInt
-from apple_playlist_extractor.scraper import Scrapper
+from apple_playlist_exporter.scraper import Scrapper
 import logging
 
 logging.basicConfig(

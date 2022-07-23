@@ -79,6 +79,6 @@ class Scrapper:
         url = f"{self.__origin}/us/playlist/{username}/{playlist_id}"
         response = requests.get(url)
         response.raise_for_status()
-        self.soup = BeautifulSoup(response.text, "html.parser")
-        media = self.soup.find("meta", dict(name="desktop-music-app/config/environment"))
+        soup = BeautifulSoup(response.text, "html.parser")
+        media = soup.find("meta", dict(name="desktop-music-app/config/environment"))
         return json.loads(parse.unquote(media["content"]))["MEDIA_API"]["token"]
